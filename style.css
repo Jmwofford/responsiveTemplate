@@ -1,0 +1,144 @@
+@media (max-width: 1500px) {
+ 
+    body {
+      background-color: black;
+      color:red;
+    }
+    .child{
+      border:solid green;
+      border-radius:35px;
+      padding:12px;
+      text-align:center;
+      margin:100px;
+  }   
+  
+  }
+  /* ===================================== */
+@media (max-width: 1000px) {
+   
+    body {
+      background-color: blue;
+      color:lemonchiffon;
+
+    }
+    .containOne{
+      display:flex;
+    }
+    .titleUpper{
+      margin-top:45%;
+      margin-right:12%;
+    }
+    .child{
+      border:solid lemonchiffon;
+      border-radius:35px;
+      padding:12px;
+      text-align:center;
+      margin:100px;
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    #top{
+      width:800px;
+      padding:22px;
+      background-color:grey;
+      color:white
+
+    }
+  
+   .inner-image{
+     display:none;
+   }
+  
+  }
+/* ==================================== */
+  /* mobile */
+@media (max-width: 500px) {
+   
+    body {
+    color:black; 
+    background-color:#58697A;
+    color:white;
+    }
+    .child{
+      border:solid white;
+      border-radius:35px;
+      padding:12px;
+      text-align:center;
+      margin:100px;
+  }
+    
+    .containOne{
+      display:block;  
+      border:solid white;
+      border-width:.5px;
+      margin:22px;
+      height:35vh;
+      padding:1em;
+      align-items:space-around;
+    }
+    .containTwo{
+      border:solid white;
+      border-width:.5px;
+      margin:22px;
+      height:65vh;
+      padding:1em;
+    
+    }
+    .inner-image{
+      height:35vh;
+      width:50vw;
+      border:solid rgb(48, 48, 43);
+      border-radius:50%;
+      margin-left:55%;
+      display:block;
+    }
+    #top{
+      width:60vw;
+      padding:22px;
+      /* background-color:grey; */
+    }
+    .titleUpper{
+      margin-top:5%;
+      margin-right:12%;
+    }
+    
+}
+/* ====================================== */
+
+.container{
+   border-width:.3px; border:solid white;    
+}
+
+.child{
+    /* border:solid red; */
+    padding:12px;
+    text-align:center;
+    margin:100px;
+}
+#blob{
+    height:100px;
+    width:100px;
+    /* margin-left:35vw; */
+}
+.containOne{
+  border:solid white;
+  margin:22px;
+  height:auto;
+  padding:1em;
+  align-items:space-around;
+}
+.containTwo{
+  border:solid white;
+  margin:22px;
+  height:auto;
+  padding:1em;
+
+}
+.inner-image{
+  height:160px;
+  width:160px;
+  border:solid white;
+}
+.text-mid{
+  padding:2px;
+   min-height: 450px ;
+  border:solid white;
+}
